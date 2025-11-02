@@ -46,7 +46,7 @@ export default function NotesClient({ tag }: { tag: string | null }) {
           <SearchBox onSearch={(query) => setSearch(query)} />
         </div>
 
-        {/* ✅ нова кнопка переходу */}
+        
         <Link href="/notes/action/create" className={css.button}>
         Create note
         </Link>
